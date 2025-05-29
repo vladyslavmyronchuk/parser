@@ -46,7 +46,7 @@ void setup()
 
 void loop()
 {
-  // Читання GPS постійно
+  // Читання GPS йоу
   while (Serial1.available())
   {
     gps.encode(Serial1.read());
