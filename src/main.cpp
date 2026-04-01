@@ -19,7 +19,7 @@ const int greenpin = 12;
 
 // Таймер
 unsigned long lastRead = 0;
-const unsigned long interval = 1000;
+const unsigned long interval = 650;
 
 // Змінні
 float distance = -1;
